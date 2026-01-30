@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/814/814513.png">
+    <title>Countries</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+  </head>
+  <body>
+    <body>
+      <header>
+        <div class="container">
+          <h1>Where in the world?</h1>
+          <button id="themeToggle">🌙 Dark Mode</button>
+        </div>
+      </header>
+      <main class="container">
+        <div class="controls">
+          <div class="search-wrapper">
+            <input type="text" id="search" placeholder="Search for a country...">
+          </div>
+          <div class="filter-wrapper">
+            <button id="filterBtn" class="filter-btn">
+              Filter by Region <span>▼</span>
+            </button>
+            <ul id="filterMenu" class="filter-menu">
+              <li data-region="all">All</li>
+              <li data-region="Africa">Africa</li>
+              <li data-region="Americas">Americas</li>
+              <li data-region="Asia">Asia</li>
+              <li data-region="Europe">Europe</li>
+              <li data-region="Oceania">Oceania</li>
+            </ul>
+          </div>
+        </div>
+        <div id="countriesGrid" class="grid"></div>
+      </main>
+      <script src="main.js"></script>
+    </body>
+    <script src="main.js"></script>
+  </body>
+  </html>
